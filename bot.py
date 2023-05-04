@@ -8,7 +8,6 @@ import json
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-ADMIN = os.getenv('ADMIN_ID')
 
 f = open('message_storage.json')
 data = json.load(f)
